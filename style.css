@@ -1,0 +1,21 @@
+h3{
+    font-weight: bolder;
+    font-size: 26px;
+}
+.btn-danger:hover{
+    background-color: black;
+    color:red;
+}
+.btn-success:hover{
+    background-color: aquamarine;
+    color: royalblue;
+}
+canvas{
+    animation-name: zain;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes zain{
+    from{box-shadow: 1px 1px 250px aquamarine;}
+    to{box-shadow: 1px 1px 250px limegreen;}
+}
